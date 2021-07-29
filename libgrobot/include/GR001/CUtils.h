@@ -39,7 +39,7 @@ extern "C" {
 #include <sys/ioctl.h>
 #include <ctype.h>
 
-#defien C_DECLSPEC
+#define C_DECLSPEC
 #endif
 
 

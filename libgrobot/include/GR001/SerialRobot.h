@@ -7,8 +7,8 @@
 #ifndef __SERIAL_ROBOT_H__
 #define __SERIAL_ROBOT_H__
 
-#include "CUtils.h"
-#include "SerialPort.h"
+#include <GR001/CUtils.h>
+#include <GR001/SerialPort.h>
 #include <iostream>
 #include <vector>
 

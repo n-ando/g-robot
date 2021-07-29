@@ -1,14 +1,15 @@
 ﻿cmake_minimum_required(VERSION 3.5.0)
 
 # Build "grobot.lib"
+add_definitions(-DGR001_EXPORTS)
 add_library(libgrobot
   STATIC
-    GROBO.cpp
-    CUtils.cpp
-    SerialPort.cpp
-    YamlParser.cpp
-    SerialRobot.cpp
     stdafx.cpp
+    CUtils.cpp
+    YamlParser.cpp
+    SerialPort.cpp
+    SerialRobot.cpp
+    GROBO.cpp
   )
 target_include_directories(libgrobot
   PUBLIC ${libgrobot_SOURCE_DIR}/include
