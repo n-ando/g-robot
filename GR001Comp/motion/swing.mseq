@@ -1,0 +1,89 @@
+# Body posture sequence format version 1.0 
+
+type: MotionSeq
+name: lefarm
+targetBody: SerialRobot
+refs:
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7,11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2, -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2,  -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7,11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2, -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2,  -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7,11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2, -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2,  -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7,11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2, -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [-0.2,  -0.2, -0.2,  -0.2 ]
+  - time: 0
+    refer:
+      type: Motion
+      joints: [1, 5, 7, 11]
+      q: [0.2, 0.2, 0.2, 0.2 ]
+
+
+

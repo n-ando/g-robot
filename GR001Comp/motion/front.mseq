@@ -1,0 +1,13 @@
+# Body posture sequence format version 1.0 
+
+type: MotionSeq
+name: lefarm
+targetBody: SerialRobot
+refs:
+  - time: 0.5
+    refer:
+      type: Motion
+      joints: [ 2, 8]
+      q: [ 0.1, -0.1]
+
+
